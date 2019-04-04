@@ -132,3 +132,15 @@ git rm note1.txt ---- 从版本库删除文件
 rm note1.txt ------ 删除工作区的文件
 删除文件错了,恢复工作区的文件
 git checkout -- note1.txt
+
+
+
+远程仓库:
+在本地仓库
+git init
+git add xxx.txt xxx.java
+git commit -m "first commit"
+
+推送到远程
+git remote add origin https://github.com/用户名username/仓库名repository.git
+git push -u origin master
