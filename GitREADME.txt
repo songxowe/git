@@ -149,3 +149,11 @@ git push -u origin master
 
 从远程仓库拉到本地仓库
 git pull https://github.com/songxowe/git.git master
+
+
+从远程仓库克隆到本地
+默认git://使用ssh----未开放端口会出错
+git clone git@github.com:songxowe/git.git
+
+使用https协议正常
+git clone https://github.com/songxowe/git.git
