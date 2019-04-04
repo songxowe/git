@@ -144,3 +144,8 @@ git commit -m "first commit"
 推送到远程
 git remote add origin https://github.com/用户名username/仓库名repository.git
 git push -u origin master
+
+
+
+从远程仓库拉到本地仓库
+git pull https://github.com/songxowe/git.git master
